@@ -1,0 +1,25 @@
+body{
+    padding: 100px;
+}
+h1{
+    color: slategrey;
+}
+p{
+    color: cadetblue;
+    margin-top: 90px;
+}
+.my_button{ 
+    align-self: center;
+    color: green;
+    background-color: white;
+    padding: 23px;
+    border-radius: 5px;
+    border-color: cadetblue;
+    transition-duration: .5s;
+    box-shadow: 10px;
+}
+.my_button:hover{
+    background-color: forestgreen;
+    color: aliceblue;
+    cursor: pointer;
+}
